@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kaggle-titanic-machine-learning-from-disaster"
+version = "0.1.0"
+description = "Solução para o desafio Titanic ML no Kaggle: previsão de sobreviventes do naufrágio usando aprendizado de máquina. Inclui preparação de dados, testes com diferentes modelos e otimização de hiperparâmetros."
+authors = ["Matheus Abrantes <abrantes_matheus@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
